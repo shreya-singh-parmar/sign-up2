@@ -1,0 +1,233 @@
+:root {
+    --main-background-color: #2f1893;
+    --primary-button-color: #e93a7d;
+    --secondary-button-color: #482be7;
+    --sky-blue-button-color: #1da1f2;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #1e0e62;
+  }
+  
+  body {
+    background-color: var(--main-background-color);
+    margin-bottom: 5rem;
+  }
+  
+  .text-color-white {
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+  }
+  .navbar-heading {
+    text-align: center;
+    color: var(--primary-text-color);
+    font-family: "DM Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .primary-button {
+    width: 11.2rem;
+    height: 3.6rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: var(--primary-button-color);
+    color: var(--primary-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+    font-family: "DM Sans";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5rem;
+  }
+  
+  .primary-button:hover {
+    background: var(--primary-button-color);
+  }
+  
+  .secondary-button {
+    width: 25rem;
+    height: 3.6rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: var(--secondary-button-color);
+    color: var(--primary-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: " DM Sans";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .secondary-button:hover {
+    background: var(--secondary-button-color);
+    color: var(--primary-text-color);
+  }
+  
+  .sky-blue-button {
+    width: 25rem;
+    height: 3.6rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem;
+    background: var(--sky-blue-button-color);
+    color: var(--primary-text-color);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: " DM Sans";
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .sky-blue-button:hover {
+    background: var(--sky-blue-button-color);
+    color: var(--primary-text-color);
+  }
+  
+  .navbar-style {
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+  }
+  
+  .navbar {
+    padding: 0px;
+    margin-top: 2rem;
+  }
+  
+  .input-field {
+    height: 3.7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(21, 20, 57, 0.4);
+    flex-shrink: 0;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-family: "DM Sans";
+    font-style: normal;
+  }
+  
+  .form-container {
+    height: 100%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+  }
+  
+  .form-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-text-color);
+    font-family: "DM Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .row {
+    color: white;
+    margin-top: 5rem;
+  }
+  
+  .form-check {
+    font-family: "DM Sans";
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 2rem;
+    color: rgba(21, 20, 57, 0.795);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .form-check-label {
+    margin-left: 1rem;
+  }
+  
+  .form-check-input {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+  .form-check-input:checked {
+    background-color: #25dac5;
+  }
+  
+  .have-an-account {
+    color: rgba(21, 20, 57, 0.795);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .heading-1 {
+    font-family: "DM Sans";
+    font-size: 4.1rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .sub-heading-1 {
+    font-family: " DM Sans";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 480px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
